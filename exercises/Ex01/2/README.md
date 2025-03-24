@@ -1,7 +1,7 @@
 **EXERCISE 1A: CREATE NEW MIG**
 
-In the next step you will create your own MIG. 
-Your Trading Partner expects the following Order Response EDIFACT Message:
+In the next step you will create your own MIG. \
+Your Trading Partner expects the following Order Response EDIFACT Message:\
 UNB+UNOC:3+1234567890123:1+UNEDI_TP_E_P123456:1+231217:1500+000255++++1'
 UNH+5220230+ORDRSP:D:02A:UN:DF0320'
 BGM++0000347163'

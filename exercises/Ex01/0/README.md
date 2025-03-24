@@ -1,14 +1,14 @@
 **Introduction**
 
 In this exercise, you will learn how to onboard a new Trading Partner by using the following capabilities of the Integration Suite:\
-&nbsp;&nbsp;&nbsp;&nbsp;• Integration Advisor\
-&nbsp;&nbsp;&nbsp;&nbsp;• Trading Partner Management\
-&nbsp;&nbsp;&nbsp;&nbsp;• Cloud Integration
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Integration Advisor\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Trading Partner Management\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Cloud Integration
 
    To make this session a successful one for all attendees, we recommend a good understanding of data structures (e. g. IDoc, SOAP, X12 or EDIFACT) along with some understanding of SAP Integration Suite capability Cloud Integration. The business process we will simulate in this exercise is part of the procure-to-pay process. The complete procure to pay consists of three transactions:\
-&nbsp;&nbsp;&nbsp;&nbsp;•	Purchase Order Request (Two-way transaction)\
-&nbsp;&nbsp;&nbsp;&nbsp;•	Shipment Notification\
-&nbsp;&nbsp;&nbsp;&nbsp;•	Invoice Message
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Purchase Order Request (Two-way transaction)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Shipment Notification\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Invoice Message
 
 Here we focus on the first transaction. 
 

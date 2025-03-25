@@ -1,4 +1,4 @@
-**Introduction**
+# **Introduction**
 
 In this exercise, you will learn how to onboard a new Trading Partner by using the following capabilities of the Integration Suite:\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Integration Advisor\

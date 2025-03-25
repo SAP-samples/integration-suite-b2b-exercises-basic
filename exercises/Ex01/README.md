@@ -1,11 +1,11 @@
-**Manage B2B Scenarios Effectively with SAP Integration Suite**
+# **Manage B2B Scenarios Effectively with SAP Integration Suite**
 
-**--Exercise 1--**
+## **--Exercise 1--**
 
 (Alexander Bundschuh, SAP SE) (Tushar Pradhan, SAP America)(Marco Ertel, SAP SE)
 
 
-**TABLE OF CONTENTS**
+## **TABLE OF CONTENTS**
 
 0.	 INTRODUCTION
 1.	 EXERCISE 1: SIMPLE ONBOARDING OF A NEW TRADING PARTNER\

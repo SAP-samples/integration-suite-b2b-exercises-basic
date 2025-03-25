@@ -1,4 +1,4 @@
-**EXERCISE 1A: CREATE NEW MIG**
+# **EXERCISE 1A: CREATE NEW MIG**
 
 In the next step you will create your own MIG. \
 Your Trading Partner expects the following Order Response EDIFACT Message:\

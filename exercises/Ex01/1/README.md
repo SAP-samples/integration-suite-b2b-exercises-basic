@@ -10,6 +10,22 @@ To make all entities unique we recommend adding your user id like TradingPartner
 ![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/1.png)
 
 
+**Step 2**: Navigate to Design and select B2B Scenarios.
+
+**Step 3**: As you want to onboard a new Trading Partner switch to the tab Partner Profiles.
+
+**Step 4**: Select Create->Trading Partner to create a new Trading Partner.
+
+**Step 5**: On the following screen, you need to maintain general data for the new trading partner as follows:
+Company Name: TradingPartner-P123456 (with P123456 your userid)
+Company Short Name: TradingPartnerXX (with P123456 your user id)
+All the other fields are optional.
+
+
+Please save the newly created Trading Partner.
+
+
+**Step 7**: 
 ## **2. Use Agreement Template to create an agreement**
 
 With the Agreement, you instantiate the agreement template where you need to fill out the details of the trading partners

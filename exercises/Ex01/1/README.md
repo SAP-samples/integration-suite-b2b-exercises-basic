@@ -139,12 +139,26 @@ With the Agreement, you instantiate the agreement template where you need to fil
 
 **Step 1**: Navigate back to Design  B2B Scenarios, and switch to the tab Agreements.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.1.png)
+
+
 **Step 2**: On the Agreements tab, create a new Agreement.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.2.png)
+
 
 **Step 3**: In the upcoming dialog, select the existing Agreement [openSAP - BTP4] Procure to Pay B2B Template and select Next.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.3.png)
+
+
 **Step 4**: 4.	Switch the Agreement Creation Mode to Copy from Template.
 (more details can be found in the documentation https://help.sap.com/docs/integration-suite/sap-integration-suite/creating-trading-partner-agreement. Deselect Shipment Notification and Invoice Message as in this simplified example we are only using the Purchase Order Request Response. Then select the TradingPartner-P123456 (with P123456 your userid) you’ve created and click on Open Draft.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.4.png)
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.4.1.png)
+
 
 **Step 5**: Please start with renaming the Agreement to Procure to Pay – P123456 (with P123456 your user id) and change the Description. Now you need to specify which Trading Partner Details you want to use. Please enter these details in the following order (with P123456 your user id):
 Maintain System B2B-System-P123456, Type System UN/EDIFACT, Type System Version D.02A S3, Identifier UNEDI_TP_E_P123456, and Identifier as Company O-P123456.
@@ -153,38 +167,79 @@ Finally, select the Identifier as Trading Partner 123456789123 from the drop-dow
 Hint: use the drop-down help but start with the Trading Partner Details and select the Identifier as Trading Partner as the last one.
 When done, save your settings.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.5.png)
+
 
 **Step 6**: Navigate to the tab B2B Scenarios and switch the Transaction to the edit mode.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.6.png)
+
+
 **Step 7**: There you see the transactions for the scenario. In our exercise, it is a two-way transaction initiated by the trading partner.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.7.png)
+
+
 **Step 8**: Please start on the right by clicking on the first Communication box within the flow and select AS2 for Communication.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.8.png)
+
 
 **Step 9**: Please click now on the Interchange box to define the Message Implementation Guideline. Select the drop-down list.
 
 Note: The Message Implementation Guideline have been already prepared by using the Integration Advisor capability of SAP Integration Suite.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.9.png)
+
 
 **Step 10**: In the pop up select openSAP BTP4 - EDIFACT ORDERS and switch to the highest version. Then select Choose.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.10.png)
+
+
 **Step 11**: Last step for the definition of the Order is to select the Mapping box (which is also prepared by using the Integration Advisor). Select the drop-down list.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.11.png)
+
 
 **Step 12**: In the pop up select openSAP BTP4 - EDIFACT ORDERS to IDoc ORDERS and switch to the highest version. Then select Choose.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.12.png)
+
+
 **Step 13**: As the backend will also send an Order Response the necessary data for these needs also to be maintained. Select the Communication for the outgoing message to AS2.Receiver.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.13.png)
 
 
 **Step 14**: Please click now on the Interchange box to define the Message Implementation Guideline. Select the drop-down list.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.14.png)
+
+
 **Step 15**: In the pop up select openSAP BTP4 - EDIFACT ORDRSP and switch to the highest version. Then select Choose.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.15.png)
+
 
 **Step 16**: Last step for the definition of the Order Response is to select the Mapping box Select the drop-down list
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.16.png)
+
+
 **Step 17**: In the pop up select openSAP BTP4 – Idoc ORDRSP to EDIFACT ORDRSP and switch to the highest version. Then select Choose.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.17.png)
+
 
 **Step 18**: Save the Agreement
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.18.png)
+
+
 **Step 19**: Activate the agreement to write all necessary data into the Partner Directory Database.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/2.19.png)
 
 
 ## **3. Prepare Simulation Flow and send a message**

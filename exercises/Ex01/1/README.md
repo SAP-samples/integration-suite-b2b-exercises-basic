@@ -249,37 +249,76 @@ As we have defined that the trading partner sends an EDIFACT Order via the AS2 P
 
 **Step 1**: Navigate to Design -> Integrations and APIs.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.1.png)
+
+
 **Step 2**: If you haven’t done so before, create a new Package by clicking Create.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.2.png)
+
 
 **Step 3**: Use openSAP-BTP4-P123456 for Name and Short Description with XX your user Id and save the package.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.3.png)
+
+
 **Step 4**: Navigate back to the list of existing packages by clicking Integrations and APIs.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.4.png)
+
 
 **Step 5**: Open the package openSAP BTP - SimulatorFlow.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.5.png)
+
+
 **Step 6**: In the package, switch to tab Artifacts.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.6.png)
+
 
 **Step 7**: Copy the integration flow openSAP-Send-Purchase-Order to your own package. Select Copy from the Actions menu of the openSAP-Send-Purchase-Order integration flow.
 **Important: please do not change or use or delete this iflow as this is the source for all participants!**
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.7.png)
+
+
 **Step 8**: In the popup, change the name to openSAP-Send-Purchase-Order_P123456 (with P123456 your User ID).
 Then choose Select to change the target package.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.8.png)
+
+
 **Step 9**: In the upcoming package selection screen, select your package openSAP-BTP4-P123456 (with P123456 your user id).
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.9.png)
+
 
 **Step 10**: Next, select Copy.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.10.png)
+
+
 **Step 11**: On the next dialog, select Navigate to open your package.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.11.png)
+
+
 **Step 12**: You now have to Configure the integration flow. Select Configure from the Actions menu of the openSAP-Send-Purchase-Order_P123456 integration flow.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.12.png)
+
 
 **Step 13**: Please configure the integration flow with your UserID P123456. 
 Then select Save and Deploy. Once the integration flow is successfully deployed, the message is sent and should appear in your mailbox a few seconds later.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.13.png)
+
+
 **Step 14**: Please select the Confirmation message about transaction handling by selecting the checkmark. 
 The runtime profile is preselected as Cloud Integration and select deploy! 
 
-
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/3.14.png)
 
 
 ## **4. Monitor the Scenario**
@@ -288,15 +327,32 @@ The EDIFACT message is now sent to the generic integration flow and from there v
 
 **Step 1**: Navigate to the B2B Monitoring by selecting Monitor  B2B Scenarios
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/4.1.png)
+
 **Step 2**: On the tiles you see how many interchanges had been processed in the last 24 hours. Click on the left tile.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/4.2.png)
+
+
 **Step 3**: Now you see all messages from the last 24 hours. You can restrict them by using the filters and activate the filter by pressing Go.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/4.3.png)
+
 
 **Step 4**: Click on one of your Completed interchanges. As we are using here a two-way transaction you will see for each started simulator iflow two entries:
 One for the Orders, one for the OrderRSP.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/4.4.png)
+
+
 **Step 5**: On this page, you see more details like Sender Name, Adapter Type, … and you can also jump to the technical monitoring if this is necessary, and you are also able to see the payload of the source and target message.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/4.5.png)
+
+
 **Step 6**: Depending on the Event you’ve selected, you see here more details on a technical level to solve issues if necessary.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/4.6.png)
+
 
 Congrats, you have successfully completed the first exercise.

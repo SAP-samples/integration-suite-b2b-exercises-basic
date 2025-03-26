@@ -152,6 +152,56 @@ Note: The Message Implementation Guideline have been already prepared by using t
 As we have defined that the trading partner sends an EDIFACT Order via the AS2 Protocol we need to simulate this. Therefore, we have built an integration flow which you have to copy to a new package, configure it and deploy. The EDIFACT message is sent as soon as the integration flow is deployed.
 
 
+**Step 1**: Navigate to Design -> Integrations and APIs.
+
+**Step 2**: If you haven’t done so before, create a new Package by clicking Create.
+
+**Step 3**: Use openSAP-BTP4-P123456 for Name and Short Description with XX your user Id and save the package.
+
+**Step 4**: Navigate back to the list of existing packages by clicking Integrations and APIs.
+
+**Step 5**: Open the package openSAP BTP - SimulatorFlow.
+
+**Step 6**: In the package, switch to tab Artifacts.
+
+**Step 7**: Copy the integration flow openSAP-Send-Purchase-Order to your own package. Select Copy from the Actions menu of the openSAP-Send-Purchase-Order integration flow.
+**Important: please do not change or use or delete this iflow as this is the source for all participants!**
+
+**Step 8**: In the popup, change the name to openSAP-Send-Purchase-Order_P123456 (with P123456 your User ID).
+Then choose Select to change the target package.
+
+**Step 9**: In the upcoming package selection screen, select your package openSAP-BTP4-P123456 (with P123456 your user id).
+
+**Step 10**: Next, select Copy.
+
+**Step 11**: On the next dialog, select Navigate to open your package.
+
+**Step 12**: You now have to Configure the integration flow. Select Configure from the Actions menu of the openSAP-Send-Purchase-Order_P123456 integration flow.
+
+**Step 13**: Please configure the integration flow with your UserID P123456. 
+Then select Save and Deploy. Once the integration flow is successfully deployed, the message is sent and should appear in your mailbox a few seconds later.
+
+**Step 14**: Please select the Confirmation message about transaction handling by selecting the checkmark. 
+The runtime profile is preselected as Cloud Integration and select deploy! 
+
+
+
+
 ## **4. Monitor the Scenario**
 
 The EDIFACT message is now sent to the generic integration flow and from there via the IDOC Adapter to the simulated S/4HANA system which generates an ORDRSP. This is then mapped to EDIFACT and sent as an email to your inbox. To monitor B2B Scenarios let’s have a look at the B2B Monitoring.
+
+**Step 1**: Navigate to the B2B Monitoring by selecting Monitor  B2B Scenarios
+
+**Step 2**: On the tiles you see how many interchanges had been processed in the last 24 hours. Click on the left tile.
+
+**Step 3**: Now you see all messages from the last 24 hours. You can restrict them by using the filters and activate the filter by pressing Go.
+
+**Step 4**: Click on one of your Completed interchanges. As we are using here a two-way transaction you will see for each started simulator iflow two entries:
+One for the Orders, one for the OrderRSP.
+
+**Step 5**: On this page, you see more details like Sender Name, Adapter Type, … and you can also jump to the technical monitoring if this is necessary, and you are also able to see the payload of the source and target message.
+
+**Step 6**: Depending on the Event you’ve selected, you see here more details on a technical level to solve issues if necessary.
+
+Congrats, you have successfully completed the first exercise.

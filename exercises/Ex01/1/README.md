@@ -7,7 +7,7 @@ Please logon https://opensapeu01.integrationsuite.cfapps.eu10-002.hana.ondemand.
 To make all entities unique we recommend adding your user id like TradingPartner-P123456 (if your userid is P123456). If your user is like UserXX so, please create then entities like TradingPartner-UserXX. In other words: please replace the “P” with “User” and the “123456” with your number. As all identifiers are compared as strings be very precise (especially with upper and lower case) there otherwise you will run into error messages.
 
 **Step 1**: Log on to the Integration Suite tenant with your system details provided to you by the app.
-![image](http://url/to/img.png)
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/1.png)
 
 
 ## **2. Use Agreement Template to create an agreement**

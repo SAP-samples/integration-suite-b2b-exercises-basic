@@ -7,23 +7,32 @@ Please logon https://opensapeu01.integrationsuite.cfapps.eu10-002.hana.ondemand.
 To make all entities unique we recommend adding your user id like TradingPartner-P123456 (if your userid is P123456). If your user is like UserXX so, please create then entities like TradingPartner-UserXX. In other words: please replace the “P” with “User” and the “123456” with your number. As all identifiers are compared as strings be very precise (especially with upper and lower case) there otherwise you will run into error messages.
 
 **Step 1**: Log on to the Integration Suite tenant with your system details provided to you by the app.
+
 ![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/1.png)
 
 
 **Step 2**: Navigate to Design and select B2B Scenarios.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/1.2.png)
+
 **Step 3**: As you want to onboard a new Trading Partner switch to the tab Partner Profiles.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/1.3.png)
+
 **Step 4**: Select Create->Trading Partner to create a new Trading Partner.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/1.4.png)
 
 **Step 5**: On the following screen, you need to maintain general data for the new trading partner as follows:
 Company Name: TradingPartner-P123456 (with P123456 your userid)
 Company Short Name: TradingPartnerXX (with P123456 your user id)
 All the other fields are optional.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/1.5.png)
 
 Please save the newly created Trading Partner.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/assets/1.5.1.png)
 
 **Step 6**: Switch to the Contacts tab and select Create Contact
 

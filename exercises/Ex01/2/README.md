@@ -37,7 +37,13 @@ The nodes marked in grey will not be modeled in the MIG in this exercise.
 
 **Step 1**: Navigate to Design and select MIGs.
 
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.1.png)
+
+
 **Step 2**: Click on Add to create a new MIG. Use UN/EDIFACT as Type System and ORDRSP as Message with Version D.02A S3.
+
+![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.2.png)
+
 
 **Step 3**: As we will not need additional envelope support here (envelopes will then be handled by TPM) please choose D
 

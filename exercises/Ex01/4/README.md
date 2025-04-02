@@ -2,42 +2,42 @@
 
 After you’ve created now a MIG for the EDIFACT Order Response Message and a MAG to map from the IDoc Order Response to the Edifact message you need to change your trading partner agreement to use the newly created MIG and MAG.
 
-**Step 1**: Navigate to the B2B Scenarios
+**1**: Navigate to the B2B Scenarios
 
 ![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/4/assets/4.1.png)
 
 
-**Step 2**: Go to Tab Agreements and open the Trading Partner Agreement you’ve created in exercise 1 (the name should be Procure to Pay – P123456 with P123456 your user id)
+**2**: Go to Tab Agreements and open the Trading Partner Agreement you’ve created in exercise 1 (the name should be Procure to Pay – P123456 with P123456 your user id)
 
 ![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/4/assets/4.2.png)
 
 
-**Step 3**: Switch from the Overview to the B2B Scenarios
+**3**: Switch from the Overview to the B2B Scenarios
 
 ![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/4/assets/4.3.png)
 
 
-**Step 4**: And there to the edit mode.
+**4**: And there to the edit mode.
 
 ![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/4/assets/4.4.png)
 
 
-**Step 5**: Select the Interchange in the second line (where the definition of the order response message is)
+**5**: Select the Interchange in the second line (where the definition of the order response message is)
 
 ![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/4/assets/4.5.png)
 
 
-**Step 6**: Use the dropdown to change the MIG. In case no MIG is listed click on Reset and select your MIG (EDIFACT Ordrsp P123456 with P123456 your user id) and click Choose.
+**6**: Use the dropdown to change the MIG. In case no MIG is listed click on Reset and select your MIG (EDIFACT Ordrsp P123456 with P123456 your user id) and click Choose.
 
 ![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/4/assets/4.6.png)
 
 
-**Step 7**: Now select the Mapping for the outgoing message.
+**7**: Now select the Mapping for the outgoing message.
 
 ![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/4/assets/4.7.png)
 
 
-**Step 8**: Use the dropdown to change the MAG. In case no MAG is listed click on Reset and select your MAG and click on Choose.
+**8**: Use the dropdown to change the MAG. In case no MAG is listed click on Reset and select your MAG and click on Choose.
 
 You may use the Search box on the right side and search for your user id. 
 (Your MAG Name will be Mapping openSAP BTP4 – Idoc ORDRSP to EDIFACT Ordrsp P123456 with P123456 your user id) 
@@ -45,12 +45,12 @@ You may use the Search box on the right side and search for your user id.
 ![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/4/assets/4.8.png)
 
 
-**Step 9**: Save the Trading Partner Agreement
+**9**: Save the Trading Partner Agreement
 
 ![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/4/assets/4.9.png)
 
 
-**Step 10**: Update your scenario
+**10**: Update your scenario
 
 Now you can again send a test message with the iflow you’ve copied in exercise 1 and look at the monitoring and in your personal inbox if everything works fine.
 

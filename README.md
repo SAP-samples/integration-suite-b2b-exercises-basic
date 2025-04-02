@@ -15,7 +15,7 @@
 
 ## Exercises
 
-1. [Exercise 1 ](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/tree/main/exercises/Ex01)
+[Exercise 1: Manage B2B Scenarios Effectively with SAP Integration Suite](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/tree/main/exercises/Ex01)
 
 
 ## How to obtain support

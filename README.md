@@ -11,6 +11,12 @@
 ## Description
 <!-- Please include SEO-friendly description -->
 
+
+
+## Exercises
+
+
+
 ## How to obtain support
 [Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
  

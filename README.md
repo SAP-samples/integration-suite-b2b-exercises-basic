@@ -15,6 +15,7 @@
 
 ## Exercises
 
+https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/tree/main/exercises/Ex01
 
 
 ## How to obtain support

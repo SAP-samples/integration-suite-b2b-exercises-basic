@@ -1,7 +1,7 @@
 
 
 
-# Integration Suite - B2B Basic Extercises
+# Integration Suite - B2B Basic Exercises
 <!-- Please include descriptive title -->
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:

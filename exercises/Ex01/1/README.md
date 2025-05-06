@@ -1,4 +1,4 @@
-# **EXERCISE 1: SIMPLE ONBOARDING OF A NEW TRADING PARTNER**
+# **Exercise 1: Simple onboarding of a new Trading Partner**
 
 ## **1. Create new Trading Partner**
 
@@ -356,3 +356,5 @@ One for the Orders, one for the OrderRSP.
 
 
 Congrats, you have successfully completed the first exercise.
+
+[Continue to Exercise 1A](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/README.md)

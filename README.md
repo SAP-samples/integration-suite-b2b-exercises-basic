@@ -14,8 +14,11 @@
 
 
 ## Exercises
-
-[Exercise 1: Manage B2B Scenarios Effectively with SAP Integration Suite](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/tree/main/exercises/Ex01)
+- [Introduction](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/0/README.md)
+- [Exercise 1: Simple Onboarding of a new trading Partner](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/README.md)
+- [Exercise 1A: Create new MIG](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/README.md)
+- [Exercise 1B: Create new MAG](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/3/README.md)
+- [Exercise 1C: Use new MIG and MAG](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/4/README.md)
 
 ## Code Of Conduct
 

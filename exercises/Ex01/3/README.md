@@ -1,4 +1,4 @@
-# **EXERCISE 1B: CREATE NEW MAG**
+# **Exercise 1B: create new MAG**
 
 In this exercise you have to create your own mapping to map from the IDoc Order Response Message to the EDIFACT OrdRsp Message. For each mapping you need a source and a target MIG. The source MIG has already been created by us and the target MIG had been created by yourself in the last exercise.
 
@@ -70,4 +70,4 @@ In this exercise you have to create your own mapping to map from the IDoc Order 
 
 **14**: On some elements you have to use constants (e.g., 0065, 0052, 0054, 0057) as not all necessary values are existing in the source.
 
-
+[Continue to Exercise 1C](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/4/README.md)

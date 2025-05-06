@@ -15,3 +15,5 @@ Here we focus on the first transaction.
    To make things easier no additional installations (like postman) are necessary. The EDIFACT ORDERS will be sent from an iFlow which acts as a simulator of the Trading Partner. There is also no real S/4HANA system connected but another iFlow which receives the IDoc Orders Message and responds with an ORDRSP IDoc sent via Process Direct to TPM. After TPM has handled the message again a simulated Trading Partner receives the ORDRSP message as an EDIFACT message over AS2 and sends the message to your personal mail inbox that you can verify.
 
    To make exercise 1 easy, you will reuse already defined MIGs and MAGs. In the following exercises you will then create your own MIG and MAG. You simulate it to check if your mapping creates the expected results to use it in your transaction.
+   
+   [Continue to Exercise 1](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/README.md)

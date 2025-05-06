@@ -8,12 +8,7 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
 -->
 
-## Description
-<!-- Please include SEO-friendly description -->
-
-
-
-## Exercises
+## Steps
 - [Introduction](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/0/README.md)
 - [Exercise 1: Simple Onboarding of a new trading Partner](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/README.md)
 - [Exercise 1A: Create new MIG](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/README.md)

@@ -1,31 +1,34 @@
-# **EXERCISE 1A: CREATE NEW MIG**
+# **Exercise 1A: Create new MIG**
 
 In the next step you will create your own MIG. \
-Your Trading Partner expects the following Order Response EDIFACT Message:\
+Your Trading Partner expects the following Order Response EDIFACT Message:
 
+<pre>
 UNB+UNOC:3+1234567890123:1+UNEDI_TP_E_P123456:1+231217:1500+000255++++1'
-UNH+5220230+ORDRSP:D:02A:UN:DF0320'
+UNH+5220230+<mark>ORDRSP</mark>mark>:D:02A:UN:DF0320'
 BGM++0000347163'
-DTM+97:20231004:102'
+DTM+<mark>97</mark>:20231004:<mark>102</mark>'
 LIN+1+5'
-QTY+21:8.000:PCE'
-PRI+INV:5250.00'
-CUX+7:USD'
+QTY+<mark>21</mark>:8.000:PCE'
+PRI+<mark>INV</mark>:5250.00'
+CUX+<mark>7</mark>:USD'
 LIN+2+5'
-QTY+21:8.000:PCE'
-PRI+INV:4400.00'
-CUX+7:USD'
+QTY+<mark>21</mark>:8.000:PCE'
+PRI+<mark>INV</mark>:4400.00'
+CUX+<mark>7</mark>:USD'
 LIN+3+5'
-QTY+21:8.000:PCE'
-PRI+INV:4884.00'
-CUX+7:USD'
+QTY+<mark>21</mark>:8.000:PCE'
+PRI+<mark>INV</mark>:4884.00'
+CUX+<mark>7</mark>:USD'
 LIN+4+5'
-QTY+21:8.000:PCE'
-PRI+INV:5300.00'
-CUX+7:USD'
+QTY+<mark>21</mark>:8.000:PCE'
+PRI+<mark>INV</mark>:5300.00'
+CUX+<mark>7</mark>:USD'
 UNS+S'
 UNT+19+5220230'
 UNZ+1+000255'
+</pre>
+
 
 Use that to create a MIG. The steps are finding the correct nodes in the MIG (like BGM, like DTM, like PRI, …). Then use qualifiers (I’ve marked in the payload the qualifiers in yellow).
 
@@ -97,3 +100,5 @@ The nodes marked in grey will not be modeled in the MIG in this exercise.
 **13**: Save your MIG!
 
 If you’re finished your MIG do not forget to Save it as we will use it in the next exercises!
+
+[Continue to Exercise 1B](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/3/README.md)

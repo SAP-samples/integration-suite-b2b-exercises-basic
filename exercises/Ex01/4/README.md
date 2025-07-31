@@ -52,7 +52,7 @@ You may use the Search box on the right side and search for your user id.
 
 **10**: Update your scenario
 
-Now you can again send a test message with the iflow you’ve copied in exercise 1 and look at the monitoring and in your personal inbox if everything works fine.
+After you've updated your scenario you can again send a test message with the iflow you’ve copied in exercise 1 and look at the monitoring and in your personal inbox if everything works fine.
 
 ![image](../4/assets/4.10.png)
 

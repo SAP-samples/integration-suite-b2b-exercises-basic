@@ -28,6 +28,7 @@ UNS+S'
 UNT+19+5220230'
 UNZ+1+000255'
 </pre>
+Download the [Payload](../../Payload/edi-ordrsp.edi)
 
 
 Use that to create a MIG. The steps are finding the correct nodes in the MIG (like BGM, like DTM, like PRI, …). Then use qualifiers (I’ve marked in the payload the qualifiers in yellow).
@@ -50,7 +51,7 @@ The nodes marked in grey will not be modeled in the MIG in this exercise.
 
 ![image](../2/assets/2.3.png)
 
-**4**: Use the payload from the discovery mission (edi-ordrsp.edi.txt) and set the check mark!
+**4**: Use the [Payload](../../Payload/edi-ordrsp.edi) and set the check mark!
 
 ![image](../2/assets/2.4.png)
 

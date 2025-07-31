@@ -38,7 +38,7 @@ In this exercise you have to create your own mapping to map from the IDoc Order 
 ![image](../3/assets/3.7.png)
 
 
-**8**: Next simulate the MAG with the IDoc you can download from discovery site “ordrsp-idoc.txt” and save as ““ordrsp-idoc.xml” using the Simulate with Payload Data.
+**8**: Next simulate the MAG with the IDoc you can download [here](../../Payload/ordrsp-idoc.xml).
 
 ![image](../3/assets/3.8.png)
 

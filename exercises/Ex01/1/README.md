@@ -137,7 +137,7 @@ It is mandatory that the Own AS2 looks like OwnId-P123456 and the Partner AS2 Id
 
 With the Agreement, you instantiate the agreement template where you need to fill out the details of the trading partners
 
-**1**: Navigate back to Design  B2B Scenarios, and switch to the tab Agreements.
+**1**: Navigate back to Design -> B2B Scenarios, and switch to the tab Agreements.
 
 ![image](../1/assets/2.1.png)
 
@@ -152,10 +152,12 @@ With the Agreement, you instantiate the agreement template where you need to fil
 ![image](../1/assets/2.3.png)
 
 
-**4**: 4.	Switch the Agreement Creation Mode to Copy from Template.
+**4**: 	Switch the Agreement Creation Mode to Copy from Template.
 (more details can be found in the documentation https://help.sap.com/docs/integration-suite/sap-integration-suite/creating-trading-partner-agreement. Deselect Shipment Notification and Invoice Message as in this simplified example we are only using the Purchase Order Request Response. Then select the TradingPartner-P123456 (with P123456 your userid) you’ve created and click on Open Draft.
 
 ![image](../1/assets/2.4.png)
+
+Deselect Shipment Notification and Invoice Message as in this simplified example we are only using the Purchase Order Request Response. Then select the TradingPartner-P123456 (with P123456 your userid) you’ve created and click on Open Draft.
 
 ![image](../1/assets/2.4.1.png)
 

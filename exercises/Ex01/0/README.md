@@ -16,4 +16,4 @@ Here we focus on the first transaction.
 
    To make exercise 1 easy, you will reuse already defined MIGs and MAGs. In the following exercises you will then create your own MIG and MAG. You simulate it to check if your mapping creates the expected results to use it in your transaction.
    
-   [Continue to Exercise 1](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/1/README.md)
+   [Continue to Exercise 1](exercises/Ex01/1/README.md)

@@ -35,7 +35,7 @@ Use that to create a MIG. The steps are finding the correct nodes in the MIG (li
 
 Nodes (like QTY) which appear several times with the same qualifier will only be one time in the MIG (they have the cardinality 0..n). Don’t be scared- in the next presentation (after this exercise) you will learn more about the qualifiers and their andvantages.
 
-Luckily there is now a brand new feature in the Integration Advisor to really help you in creating the qualifiers. This assistant is using the payload to find out which qualifiers are needed. You only need to select the correct ones. If you want to read more about this feature have a look here:Blog for payload based MIG creation
+Luckily there is now a feature in the Integration Advisor to really help you in creating the qualifiers. This assistant is using the payload to find out which qualifiers are needed. You only need to select the correct ones. If you want to read more about this feature have a look here: [Blog for payload based MIG creation](https://community.sap.com/t5/technology-blogs-by-sap/integration-advisor-payload-based-qualification-at-time-of-mig-creation/ba-p/13990599)
 
 The nodes marked in grey will not be modeled in the MIG in this exercise.
 

@@ -40,7 +40,7 @@ The nodes marked in grey will not be modeled in the MIG in this exercise.
 
 **1**: Navigate to Design and select MIGs.
 
-![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.1.png)
+![image](../1/assets/2.1.png)
 
 
 **2**: Click on Add to create a new MIG. Use UN/EDIFACT as Type System and ORDRSP as Message with Version D.02A S3.
@@ -48,57 +48,57 @@ The nodes marked in grey will not be modeled in the MIG in this exercise.
 
 **3**: As we will not need additional envelope support here (envelopes will then be handled by TPM) please choose D
 
-![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.3.png)
+![image](../1/assets/2.3.png)
 
 **4**: Use the payload from the discovery mission (edi-ordrsp.edi.txt) and set the check mark!
 
-![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.4.png)
+![image](../1/assets/2.4.png)
 
 
 **5**: Select now the following Nodes:
 •	UNH
 •	DTM
 
-![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.5.png)
+![image](../1/assets/2.5.png)
 
 
 **6**: Open now the DTM node and the C507 node. Mark the 2380 node
 
-![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.6.png)
+![image](../1/assets/2.6.png)
 
 
 **7**: Open the SG26 and mark “QTY”
 
-![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.7.png)
+![image](../1/assets/2.7.png)
 
 
 **8**: Inside the Subgroup 26 you find the Subgroup 30. Please navigate there to CUX and then to C504 and select this.
 
-![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.8.png)
+![image](../1/assets/2.8.png)
 
 
 **9**: The next is also in the SG30. Open the CUX and select the C504.
 
-![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.9.png)
+![image](../1/assets/2.9.png)
 
 
 **10**: The last one is in Subgroup 36 (which is also inside SG26). Mark there the Node “TAX”
 
-![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.10.png)
+![image](../1/assets/2.10.png)
 
 
 **11**: Change the Name to EDIFACT Ordrsp P123456 (with P123456 your userid). Use Direction Both and add in the Business Context the Business Process Manage Purchase Order. Then press the Button Create.
 
-![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.11.png)
+![image](../1/assets/2.11.png)
 
 
 **12**: Give the Nodes and leaves meaningful names. Add documentation where it is helpful and necessary by selecting the line and use the documentation area on the right.
 
-![image](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/2/assets/2.12.png)
+![image](../1/assets/2.12.png)
 
 
 **13**: Save your MIG!
 
 If you’re finished your MIG do not forget to Save it as we will use it in the next exercises!
 
-[Continue to Exercise 1B](https://github.com/SAP-samples/integration-suite-b2b-exercises-basic/blob/main/exercises/Ex01/3/README.md)
+[Continue to Exercise 1B](../3/README.md)

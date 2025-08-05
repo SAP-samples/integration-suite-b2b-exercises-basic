@@ -9,11 +9,11 @@
 -->
 
 ## Steps
-- [Introduction](exercises/Ex01/0/README.md)
-- [Exercise 1: Simple Onboarding of a new trading Partner](exercises/Ex01/1/README.md)
-- [Exercise 1A: Create new MIG](exercises/Ex01/2/README.md)
-- [Exercise 1B: Create new MAG](exercises/Ex01/3/README.md)
-- [Exercise 1C: Use new MIG and MAG](exercises/Ex01/4/README.md)
+- [Introduction](Introduction/README.md)
+- [Exercise 1: Simple Onboarding of a new trading Partner](Exercise1/README.md)
+- [Exercise 1A: Create new MIG](Exercise1A/README.md)
+- [Exercise 1B: Create new MAG](Exercise1B/README.md)
+- [Exercise 1C: Use new MIG and MAG](Exercise1C/README.md)
 
 ## Code Of Conduct
 

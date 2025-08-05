@@ -228,7 +228,7 @@ As we have defined that the trading partner sends an EDIFACT Order via the AS2 P
 
 ![image](assets/3.6.png)
 
-7.Copy the integration flow openSAP-Send-Purchase-Order to your own package. Select Copy from the Actions menu of the openSAP-Send-Purchase-Order integration flow.
+7. Copy the integration flow openSAP-Send-Purchase-Order to your own package. Select Copy from the Actions menu of the openSAP-Send-Purchase-Order integration flow.
 **Important: please do not change or use or delete this iflow as this is the source for all participants!**
 
 ![image](assets/3.7.png)

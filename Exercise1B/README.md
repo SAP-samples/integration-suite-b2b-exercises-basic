@@ -10,11 +10,11 @@ In this exercise you have to create your own mapping to map from the IDoc Order 
 
 ![image](assets/3.2.png)
 
-3. At first you have to select the source MIG. Use the prepared one: openSAP BTP4 – IDoc ORDRSP. Then click Next.
+3. At first you have to select the source MIG. Use the prepared one: **openSAP BTP4 – IDoc ORDRSP**. Then click Next.
 
 ![image](assets/3.3.png)
 
-4. Select as Target MIG the MIG you’ve created in the last exercise EDIFACT Ordrsp P123456 (with P123456 your user id) and press Create.
+4. Select as Target MIG the MIG you’ve created in the last exercise **EDIFACT Ordrsp P123456** (with P123456 your user id) and press Create.
 
 ![image](assets/3.4.png)
 
@@ -30,7 +30,7 @@ In this exercise you have to create your own mapping to map from the IDoc Order 
 
 ![image](assets/3.7.png)
 
-8.Next simulate the MAG with the IDoc you can download [here](../Payload/ordrsp-idoc.xml).
+8. Next simulate the MAG with the IDoc you can download [here](../Payload/ordrsp-idoc.xml).
 
 ![image](assets/3.8.png)
 

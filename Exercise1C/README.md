@@ -44,3 +44,5 @@ After you've updated your scenario you can again send a test message with the if
 
 ![image](assets/4.10.png)
 
+With that you've completed the first Exercise!
+
